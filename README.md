@@ -1,2 +1,2 @@
-#config
+# configs
 my configs :)
