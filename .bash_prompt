@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+# TERMINAL PROMPT
+PS1="\[\e[0;31m\]rose\[\e[m\]"    # username(rose)
+PS1+=" "    # space
+PS1+="\[\e[0;95m\]\W\[\e[m\]"    # current directory
+PS1+=" "      # space
+PS1+=">> "    # end prompt
+export PS1;
